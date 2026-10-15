@@ -1,0 +1,17 @@
+# Rama_height=1.3
+# Raja_height=1.7
+# if Rama_height>Raja_height:
+#    print('Rama height is taller')
+# else:
+#    print('Raja height is taller')
+   
+   
+total=float(input("Enter total purchase amount:"))
+if total>=1000:
+       discount=total*0.10
+       final_amount=total-discount
+       print("Discount applied:",discount)
+       print("Final amount to pay:",final_amount)
+else:
+       print("no discount applied")
+       print("Final amount to pay:",total)
